@@ -1,0 +1,32 @@
+[project]
+name = "software-architecture-for-controlling-smart-grids"
+version = "0.1.0"
+description = "SPARQL notebooks for Wikidata and DBpedia queries related to smart grids"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    # SPARQL clients
+    "SPARQLWrapper>=2.0.0",
+    "rdflib>=7.0.0",
+    "httpx>=0.27.0",
+    "requests>=2.32.0",
+    # Tabular results & analysis
+    "polars>=1.0.0",
+    # Notebook display / plotting
+    "matplotlib>=3.9.0",
+    "ipython>=8.27.0",
+    # Jupyter
+    "jupyterlab>=4.2.0",
+    "notebook>=7.2.0",
+    "ipykernel>=6.29.0",
+    "ipywidgets>=8.1.0",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.6.0",
+]
+
+[tool.uv]
+package = false
+default-groups = ["dev"]
