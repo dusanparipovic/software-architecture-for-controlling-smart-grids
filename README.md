@@ -21,6 +21,10 @@ The playground ships with several RDF scenarios. The **graph theory** scenario m
 
 The diagram below is the UML model of the **GraphTheory** ontology used as the playground dataset (`Graph`, `Node`, `Edge`, algorithms, and complexity types):
 
+Content:
+- 14 Classes
+- 4 Enumerations
+
 ![GraphTheory class diagram used in SPARQL Playground](docs/graph-theory-class-diagram.png)
 
 Core ideas from the model:
@@ -29,6 +33,7 @@ Core ideas from the model:
 - A `Graph` contains `Node`s and may relate to `GraphAlgorithms`
 - Edges specialise into weighted / unweighted and directed / undirected forms
 - Algorithms (`Search`, `Sort`) are linked to `TimeComplexity` and `SpaceComplexity`
+
 
 ---
 
