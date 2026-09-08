@@ -11,13 +11,9 @@ Together, Part 1 teaches SPARQL on a controlled graph-theory ontology; Part 2 ap
 
 ---
 
-## Part 1 — SPARQL Playground (Graph Theory scenario)
+## Part 1 - SPARQL Playground (Graph Theory ontology)
 
-Start here if you want a local, offline-friendly SPARQL UI and a small teaching dataset:
-
-- Fork: [https://github.com/dusanparipovic/sparql-playground](https://github.com/dusanparipovic/sparql-playground)
-- Upstream: [calipho-sib/sparql-playground](https://github.com/calipho-sib/sparql-playground)
-- Live demo (SIB): [https://sparql-playground.sib.swiss/](https://sparql-playground.sib.swiss/)
+- My SPARQL Playground fork which you could use to query my own existing ontology: [https://github.com/dusanparipovic/sparql-playground](https://github.com/dusanparipovic/sparql-playground)
 
 The playground ships with several RDF scenarios. The **graph theory** scenario models graphs, nodes, edges, algorithms, and complexity measures. Use `start-graphtheory.bat` / the graphtheory data directory from the fork to load that scenario.
 
@@ -37,8 +33,6 @@ Core ideas from the model:
 ---
 
 ## Part 2 — This repository (public SPARQL endpoints)
-
-After learning query patterns in the playground, this repo runs comparable queries against **DBpedia** from Jupyter notebooks.
 
 ### Notebooks
 
@@ -72,7 +66,7 @@ Queries target the public DBpedia SPARQL service:
 - Endpoint: `https://dbpedia.org/sparql`
 - UI: [https://dbpedia.org/sparql](https://dbpedia.org/sparql)
 
-The public endpoint can return HTTP 429/503 under load; the notebooks retry those responses automatically.
+The public endpoint can return HTTP 429/503 under load, the notebooks retry those responses automatically.
 
 ---
 
