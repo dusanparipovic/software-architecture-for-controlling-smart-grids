@@ -32,7 +32,7 @@ Core ideas from the model:
 
 ---
 
-## Part 2 — This repository (public SPARQL endpoints)
+## Part 2 - This repository (public SPARQL endpoints)
 
 ### Notebooks
 
