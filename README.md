@@ -17,7 +17,7 @@ Together, Part 1 teaches SPARQL on a controlled graph-theory ontology; Part 2 ap
 
 The playground ships with several RDF scenarios. The **graph theory** scenario models graphs, nodes, edges, algorithms, and complexity measures. Use `start-graphtheory.bat` / the graphtheory data directory from the fork to load that scenario.
 
-### Class diagram — system used inside SPARQL Playground
+### Class diagram - system used inside SPARQL Playground
 
 The diagram below is the UML model of the **GraphTheory** ontology used as the playground dataset (`Graph`, `Node`, `Edge`, algorithms, and complexity types):
 
