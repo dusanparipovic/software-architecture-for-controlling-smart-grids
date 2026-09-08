@@ -7,7 +7,7 @@ This repository is **Part 2** of a two-part project on SPARQL, RDF modelling, an
 | **1** | [dusanparipovic/sparql-playground](https://github.com/dusanparipovic/sparql-playground) | Interactive SPARQL learning environment (fork of [SIB SPARQL Playground](https://github.com/calipho-sib/sparql-playground)) with local RDF scenarios |
 | **2** | *this repository* | Jupyter notebooks that run SPARQL against public endpoints (DBpedia), with raw SPARQL and SPARQL-Burger builders |
 
-Together, Part 1 teaches SPARQL on a controlled graph-theory ontology; Part 2 applies the same skills to real-world Linked Open Data.
+Together, Part 1 teaches SPARQL on a controlled graph-theory ontology, Part 2 applies the same skills to real-world Linked Open Data.
 
 ---
 
@@ -26,7 +26,7 @@ The diagram below is the UML model of the **GraphTheory** ontology used as the p
 Core ideas from the model:
 
 - Everything identifiable inherits from `IdentifiedObject` (`id: uuid`)
-- A `Graph` contains `Node`s and may relate to `GraphAlgorithm`s
+- A `Graph` contains `Node`s and may relate to `GraphAlgorithms`
 - Edges specialise into weighted / unweighted and directed / undirected forms
 - Algorithms (`Search`, `Sort`) are linked to `TimeComplexity` and `SpaceComplexity`
 
